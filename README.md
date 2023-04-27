@@ -11,7 +11,7 @@ To run it you should use:
 
 Test this just by starting two basic servers, you can use this structure
 
-
+```go
 package main
 
 import (
@@ -27,3 +27,4 @@ func main() {
 
     http.ListenAndServe(":8000", nil)
 }
+```
